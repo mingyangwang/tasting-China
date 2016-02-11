@@ -55,12 +55,54 @@ nav ul li:hover {
 
 main {
 	width: 100%;
+	position: relative;
 }
 
 main div {
-	display: inline-block;
-	margin: -2px;
+	float: left;
 	width: 25%;
 	height: 300px;
 	background: red;
+}
+
+/*main div:hover {
+	background: url(../images/huan.jpg);
+	background-size: cover;
+}*/
+
+
+div.chuan {
+	background: url(../images/chuan.jpg);
+	background-size: cover;
+	background-position: 70%;
+}
+
+div.textLayer_chuan {
+	transition: all 0.5s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	opacity: 0;
+}
+
+div.textLayer_chuan:hover {
+	opacity: 1;
+	background: url(../images/huan.jpg);
+	background-size: cover;
+}
+
+div.textLayer_chuan p {
+	color: white;
+	font-size: 30px;
+}
+
+div.er {
+	background: url(../images/er.jpg);
+	background-size: cover;
+	background-position: 80% -40px;
 }
