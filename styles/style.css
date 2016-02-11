@@ -65,13 +65,13 @@ main div {
 }
 
 
-div.chuan {
+div.shandong {
 	background: url(../images/chuan.jpg);
 	background-size: cover;
 	background-position: 70%;
 }
 
-div.textLayer_chuan {
+div.textLayer_shandong {
 	transition: all 0.5s;
 	position: absolute;
 	top: 0;
@@ -83,24 +83,25 @@ div.textLayer_chuan {
 	opacity: 0;
 }
 
-div.textLayer_chuan:hover {
+div.textLayer_shandong:hover {
 	opacity: 1;
-	background: url(../images/huan.jpg);
+	background: url(../images/fugai.jpg);
 	background-size: cover;
 }
 
-div.textLayer_chuan p {
-	color: white;
+div.textLayer_shandong p {
+	color: black;
 	font-size: 30px;
+	font-weight: bold;
 }
 
-div.er {
+div.sichuan {
 	background: url(../images/er.jpg);
 	background-size: cover;
 	background-position: 80% -40px;
 }
 
-div.textLayer_er {
+div.textLayer_sichuan {
 	transition: all 0.5s;
 	position: absolute;
 	top: 0;
@@ -112,13 +113,45 @@ div.textLayer_er {
 	opacity: 0;
 }
 
-div.textLayer_er:hover {
+div.textLayer_sichuan:hover {
 	opacity: 1;
-	background: url(../images/huan.jpg);
+	background: url(../images/fugai.jpg);
 	background-size: cover;
 }
 
-div.textLayer_er p {
+div.textLayer_sichuan p {
 	font-size: 30px;
-	color: white;
+	color: black;
+	font-weight: 700;
+}
+
+
+div.guangdong {
+	background: url(../images/xiajiao.jpg);
+	background-size: cover;
+/*	background-position: 80% -40px;*/
+}
+
+div.textLayer_guangdong {
+	transition: all 0.5s;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	opacity: 0;
+}
+
+div.textLayer_guangdong:hover {
+	opacity: 1;
+	background: url(../images/fugai.jpg);
+	background-size: cover;
+}
+
+div.textLayer_guangdong p {
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
 }
