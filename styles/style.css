@@ -83,6 +83,18 @@ div.textLayer_shandong {
 	opacity: 0;
 }
 
+div.overlay_shandong {
+	transition: all 0.5s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	background: rgba(0,0,0,.2);
+}
+
 div.textLayer_shandong:hover {
 	opacity: 1;
 	background: url(../images/fugai.jpg);
