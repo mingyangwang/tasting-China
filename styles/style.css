@@ -62,13 +62,7 @@ main div {
 	float: left;
 	width: 25%;
 	height: 300px;
-	background: red;
 }
-
-/*main div:hover {
-	background: url(../images/huan.jpg);
-	background-size: cover;
-}*/
 
 
 div.chuan {
@@ -86,7 +80,6 @@ div.textLayer_chuan {
 	height: 300px;
 	line-height: 300px;
 	text-align: center;
-	background: rgba(0,0,0,0);
 	opacity: 0;
 }
 
@@ -105,4 +98,27 @@ div.er {
 	background: url(../images/er.jpg);
 	background-size: cover;
 	background-position: 80% -40px;
+}
+
+div.textLayer_er {
+	transition: all 0.5s;
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	opacity: 0;
+}
+
+div.textLayer_er:hover {
+	opacity: 1;
+	background: url(../images/huan.jpg);
+	background-size: cover;
+}
+
+div.textLayer_er p {
+	font-size: 30px;
+	color: white;
 }
