@@ -127,7 +127,7 @@ div.textLayer_sichuan p {
 
 
 div.guangdong {
-	background: url(../images/xiajiao.jpg);
+	background: url(../images/guangdong.jpg);
 	background-size: cover;
 /*	background-position: 80% -40px;*/
 }
@@ -181,6 +181,127 @@ div.textLayer_fujian:hover {
 }
 
 div.textLayer_fujian p {
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+div.jiangsu {
+	background: url(../images/jiangsu.jpg);
+	background-size: cover;
+	background-position: 80%;
+}
+
+div.textLayer_jiangsu {
+	transition: all 0.5s;
+	position: absolute;
+	top: 300px;
+	left: 0;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	opacity: 0;
+}
+
+div.textLayer_jiangsu:hover {
+	opacity: 1;
+	background: url(../images/fugai.jpg);
+	background-size: cover;
+}
+
+div.textLayer_jiangsu p {
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+div.zhejiang {
+	background: url(../images/zhejiang.jpg);
+	background-size: cover;
+	background-position: 20%;
+}
+
+div.textLayer_zhejiang {
+	transition: all 0.5s;
+	position: absolute;
+	top: 300px;
+	left: 25%;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	opacity: 0;
+}
+
+div.textLayer_zhejiang:hover {
+	opacity: 1;
+	background: url(../images/fugai.jpg);
+	background-size: cover;
+}
+
+div.textLayer_zhejiang p {
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+
+div.hunan {
+	background: url(../images/hunan.jpg);
+	background-size: cover;
+	background-position: 20%;
+}
+
+div.textLayer_hunan {
+	transition: all 0.5s;
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	opacity: 0;
+}
+
+div.textLayer_hunan:hover {
+	opacity: 1;
+	background: url(../images/fugai.jpg);
+	background-size: cover;
+}
+
+div.textLayer_hunan p {
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+div.anhui {
+	background: url(../images/anhui.jpg);
+	background-size: cover;
+	background-position: 20%;
+}
+
+div.textLayer_anhui {
+	transition: all 0.5s;
+	position: absolute;
+	top: 300px;
+	left: 75%;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	opacity: 0;
+}
+
+div.textLayer_anhui:hover {
+	opacity: 1;
+	background: url(../images/fugai.jpg);
+	background-size: cover;
+}
+
+div.textLayer_anhui p {
 	font-size: 30px;
 	color: black;
 	font-weight: 700;
